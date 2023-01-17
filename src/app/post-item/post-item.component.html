@@ -1,0 +1,9 @@
+<div style="margin-bottom: 40px">
+  <h3>{{ post.title }}</h3>
+  <p>{{ post.body }}</p>
+  <p>Votes: {{ post.votes }}</p>
+  <button class="btn btn-primary" (click)="upvote(post)">Upvote</button>
+  <button class="btn btn-primary" (click)="downvote(post)">Downvote</button>
+  <button class="btn btn-primary" (click)="hide(post)">Hide</button>
+  <br />
+</div>
